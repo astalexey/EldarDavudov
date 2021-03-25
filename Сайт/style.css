@@ -1,0 +1,231 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://kamaneft.ru/t/v465/images/images/1s.jpg?1558435020875);
+	background-attachment: fixed;
+}
+
+header, div.prod, div.about{
+	background-color: white; 
+}
+
+.company_name>h1{
+	position: relative;
+	font-size: 42px;
+	color: rgb(20, 20, 20);
+	top: 8%;
+}
+
+.company_name>h2{
+	position: relative;
+	font-size: 24px;
+	color: rgb(200, 20, 20);
+	text-align: right;
+	right: 15%;
+}
+
+.company_name{
+	height: 160px;
+}
+
+h1, h2, h3, h4, p{
+	font-family: Montserrat, sans-serif !important;
+}
+
+h1, h3{
+	font-weight: bold !important;
+}
+
+.preim h3, .contact h3{
+	color: white;
+}
+
+.preim h3, .about h3, .contact h3{
+	padding-top: 6%;
+	padding-bottom: 3%;
+}
+
+.contact h3, .contact p{
+	padding-left: 25%;
+	text-shadow: black 0px 0px 15px;
+	text-shadow: black 0px 0px 15px;
+
+}
+
+.contact h3{
+	padding-top: 9%;
+	font-size: 25px;
+}
+
+.contact p{
+	font-size: 22px;
+	color: white;
+}
+
+.slider_text>p{
+	padding-top: 60px;
+	padding-left: 40px;
+	display: block;
+	position: absolute;
+	color: white;
+	font-size: 45px;
+	font-weight: bolder;
+	z-index: 1;
+	left: 6%;
+	text-shadow: black 0px 0px 3px;
+}
+
+.preim>div{
+	height: 400px;
+}
+
+.preim p{
+	color: white
+}
+
+.preim_col>div{
+	border: solid 1px rgba(255,255,255,0.5);
+	height: 40%;
+	padding: 10px;
+	margin-left: 2%;
+	width: 23%;
+}
+
+.preim_col>div>p{
+	font-size: 18px;
+	font-weight: 300;
+}
+
+h4{
+	color: rgb(200, 20, 20) !important;
+	text-shadow: rgb(0,0,0) 1px -1px 3px;
+}
+
+.address{
+	margin-top: 20px;
+	text-align: right;
+}
+
+.tel{
+	margin-top: 20px;
+	color: rgb(200, 20, 20);
+	font-size: 25px; 
+}
+
+.sec_title{
+	padding: 50px 0 50px 0;
+}
+
+.product{
+	padding: 10px;
+	box-shadow: rgb(200,200,200) 5px -5px 8px;
+}
+
+.preim{
+	background-color: rgba(13, 15, 26, 0.9);
+}
+
+.about{
+	background: repeating-linear-gradient(rgba(255, 255, 255, 0.2) 0%, rgba(21, 24, 43, 0.2) 100%);
+}
+
+.contact{
+	background: repeating-linear-gradient(rgba(255, 255, 255, 0.75) 0%, rgba(21, 24, 43, 0.9) 100%);
+	height: 500px;
+}
+
+.about p{
+	font-size: 18px;
+	padding-bottom: 10%;
+}
+
+.img-cover img{
+	max-width: 100%;
+	overflow: hidden !important;
+    max-height: none;
+    width: 325px;
+    min-width: 0px;
+    height: auto;
+}
+
+.img_title p{
+	font-weight: 600;
+	font-size: 27px;
+	width: 80%;
+}
+
+.img_subtitle p{
+	font-size: 18px;
+}
+
+#block-for-slider {
+    width: 100%;
+    height: 800px;
+    margin: 0 auto;
+}
+
+#viewport {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    user-select: none;
+    text-align: center;
+}
+
+#slidewrapper {
+    position: relative;
+    width: calc(100% * 4);
+    transition: 1s;
+}
+
+#slidewrapper, #slidewrapper ul, #slidewrapper li {
+    margin: 0;
+    padding: 0;
+}
+
+.slide {
+    width: calc(100%/4);
+    list-style: none;
+    display: inline;
+    float: left;
+}
+
+.slide-img {
+    width: 100%;
+    height: 800px;
+}
+
+#nav-btns {
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.slide-nav-btn {
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 3px;
+}
+
+.slide-nav-btn:hover {
+    cursor: pointer;
+}
+
+footer{
+	height: 100px;
+	background-color: #0d0f1a;
+	text-align: center;
+	color: white;
+}
+
+footer>div{
+	padding-top: 2%;
+}
